@@ -1,24 +1,19 @@
-# template-vue-3
+# Рахмет UI Компоненты Storybook
 
-## Project setup
-```
-yarn install
-```
+## Демо:
+### https://saulet01.github.io/rahmet-ui-storybook/
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Запуск Storybook
 
-### Compiles and minifies for production
+### Локально
 ```
-yarn build
+yarn storybook:serve
 ```
 
-### Lints and fixes files
+### Production
 ```
-yarn lint
+yarn storybook:build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Работа с Storybook
+Папка всех сторисов хранится в ```src/stories```. Storybook по умолчанию сканирует файлы с расширением ```.stories.js```. Для полной работы с storybook, рекомендуется ознакомиться с документацией: https://storybook.js.org/docs/vue/get-started/introduction
