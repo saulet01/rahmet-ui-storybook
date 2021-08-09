@@ -1,4 +1,8 @@
-# Рахмет UI Компоненты Storybook
+<p align="center">
+  <img src="https://rahmet.s3.ap-southeast-1.amazonaws.com/rahmet_logo.svg" alt="Рахмет лого" height="100">
+</p>
+
+<h1 align="center" style="font-weight: bold">Рахмет UI Компоненты Storybook</h1>
 
 ## Демо:
 ### https://saulet01.github.io/rahmet-ui-storybook/
