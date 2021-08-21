@@ -8,7 +8,7 @@ export default {
             type: { name: "string", required: true },
             defaultValue: "demo",
             description:
-                "name of the bottom sheet, must be the same as argument on calling the function onOpen()",
+                "The name of the button sheet. Note: must be the same parameter in onOpen()",
         },
         rounded: {
             default: true,
@@ -18,7 +18,7 @@ export default {
             table: {
                 defaultValue: { summary: true },
             },
-            description: "Rounded corners of bottom sheet content",
+            description: "Rounded top corners",
         },
         overlay: {
             default: true,
@@ -40,6 +40,24 @@ export default {
             },
             description: "Inside content padding",
         },
+        shiftMinHeight: {
+            default: 70,
+            control: {
+                type: "number",
+            },
+            table: {
+                defaultValue: { summary: 70 },
+            },
+            description: "Minimum height to close the bottom sheet by dragging",
+        },
+        shiftColor: {
+            type: String,
+            control: "color",
+            table: {
+                defaultValue: { summary: "#e0e0e0" },
+            },
+            description: "Color of the sheet shift",
+        },
     },
     parameters: {
         docs: {
@@ -48,7 +66,7 @@ export default {
 <template>
     <button @click="$refs.test.onOpen('demo')">Toggle Bottom Sheet</button>
     <rahmet-bottom-sheet name="demo" ref="test">
-        <h1>Open Bottom Sheet</h1>
+        <h1>Bottom Sheet Content</h1>
     </rahmet-bottom-sheet>
 </template>
 
@@ -90,4 +108,5 @@ BottomSheet.args = {
     rounded: true,
     overlay: true,
     contentPadding: true,
+    shiftMinHeight: 70
 };
