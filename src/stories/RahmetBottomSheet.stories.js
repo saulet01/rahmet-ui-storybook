@@ -99,7 +99,8 @@ const Template = (args) => ({
     <rahmet-button class="cursor-pointer" block @click="handleOpenSheet">Toggle Bottom Sheet</rahmet-button>
     
     <rahmet-bottom-sheet v-bind="args" ref="test">
-        <h3>Bottom Sheet Content</h3>
+        <h3 class="mx-auto">Bottom Sheet Content</h3>
+        <rahmet-button block class="mt-10" @click="$refs.test.onHide()">Close</rahmet-button>
     </rahmet-bottom-sheet>`,
 });
 

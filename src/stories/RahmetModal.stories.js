@@ -87,7 +87,8 @@ const Template = (args) => ({
     <rahmet-button block @click="handleOpenModal">Toggle Modal</rahmet-button>
     
     <rahmet-modal v-bind="args" ref="modal">
-        <h3 style="height: 200px;" class="mx-auto">Modal Title</h3>
+        <h3 class="mx-auto">Modal Title</h3>
+        <rahmet-button block class="mt-10" @click="$refs.modal.onHide()">Close</rahmet-button>
     </rahmet-modal>`,
 });
 
