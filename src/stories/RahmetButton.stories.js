@@ -1,6 +1,6 @@
 import { action } from "@storybook/addon-actions";
 
-import {RahmetButton} from "rahmet-ui";
+import { RahmetButton } from "rahmet-ui";
 
 export default {
     title: "UI Components/Button",
@@ -52,8 +52,7 @@ export default {
             },
         },
         click: {
-            description:
-                "Event that is emitted when the component is clicked",
+            description: "Event that is emitted when the component is clicked",
             table: {
                 type: {
                     summary: "Events",
@@ -89,7 +88,11 @@ const Template = (args) => ({
     setup() {
         return { args };
     },
-    template: `<rahmet-button @click="action" v-bind="args">Hello Test Button</rahmet-button>`,
+    template: `
+    <div>
+        <h1>Button</h1>
+        <rahmet-button @click="action" v-bind="args">Hello Test Button</rahmet-button>
+    </div>`,
     methods: { action: action("click") },
 });
 

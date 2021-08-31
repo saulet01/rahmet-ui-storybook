@@ -1,4 +1,4 @@
-import {RahmetSpinner} from "rahmet-ui";
+import { RahmetSpinner } from "rahmet-ui";
 
 export default {
     title: "UI Components/Spinner",
@@ -48,7 +48,12 @@ const Template = (args) => ({
     setup() {
         return { args };
     },
-    template: `<rahmet-spinner v-bind="args">Hello Test Button</rahmet-spinner>`,
+    template: `
+        <div>
+            <h1>Spinner</h1>
+            <rahmet-spinner v-bind="args">Hello Test Button</rahmet-spinner>
+        </div>
+    `,
 });
 
 export const Spinner = Template.bind({});

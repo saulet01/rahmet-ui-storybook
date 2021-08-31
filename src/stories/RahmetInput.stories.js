@@ -1,4 +1,4 @@
-import {RahmetInput} from "rahmet-ui";
+import { RahmetInput } from "rahmet-ui";
 
 export default {
     title: "UI Components/Input",
@@ -64,7 +64,11 @@ const Template = (args) => ({
     setup() {
         return { args };
     },
-    template: `<rahmet-input v-bind="args">Hello Test Button</rahmet-input>`,
+    template: `
+    <div>
+        <h1>Input</h1>
+        <rahmet-input v-bind="args">Hello Test Button</rahmet-input>
+    </div>`,
 });
 
 export const Input = Template.bind({});

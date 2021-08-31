@@ -95,6 +95,7 @@ const Template = (args) => ({
         },
     },
     template: `
+    <h1>Bottom Sheet</h1>
     <rahmet-button @click="handleOpenSheet">Toggle Bottom Sheet</rahmet-button>
     
     <rahmet-bottom-sheet v-bind="args" ref="test">
@@ -108,5 +109,5 @@ BottomSheet.args = {
     rounded: true,
     overlay: true,
     contentPadding: true,
-    shiftMinHeight: 70
+    shiftMinHeight: 70,
 };
