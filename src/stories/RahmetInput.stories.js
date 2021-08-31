@@ -42,7 +42,7 @@ export default {
             source: {
                 code: `
 <template>
-    <rahmet-input v-model="value" placeholder="Введите значение"></rahmet-input>
+    <RahmetInput v-model="value" placeholder="Введите значение" />
 </template>
 
 import {RahmetInput} from "rahmet-ui"
@@ -67,11 +67,11 @@ const Template = (args) => ({
     template: `
     <div>
         <h1>Input</h1>
-        <rahmet-input v-bind="args">Hello Test Button</rahmet-input>
+        <RahmetInput v-bind="args" />
         <h2 class="mt-10">Props:</h2>
         <div class="card">
             <h3>Disabled:</h3>
-            <rahmet-input disabled placeholder="Disabled">Hello Test Button</rahmet-input>
+            <RahmetInput disabled placeholder="Disabled" />
         </div>
     </div>`,
 });
