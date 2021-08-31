@@ -111,7 +111,7 @@ const Template = (args) => ({
     template: `
     <div>
         <h1>Button</h1>
-        <rahmet-button @click="action" v-bind="args">DEMO BUTTON</rahmet-button>
+        <rahmet-button @click="action" v-bind="args">Demo Button</rahmet-button>
 
         <h2 class="mt-10">Props:</h2>
 
