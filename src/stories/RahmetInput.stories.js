@@ -68,6 +68,11 @@ const Template = (args) => ({
     <div>
         <h1>Input</h1>
         <rahmet-input v-bind="args">Hello Test Button</rahmet-input>
+        <h2 class="mt-10">Props:</h2>
+        <div class="card">
+            <h3>Disabled:</h3>
+            <rahmet-input disabled placeholder="Disabled">Hello Test Button</rahmet-input>
+        </div>
     </div>`,
 });
 
