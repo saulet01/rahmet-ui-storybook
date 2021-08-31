@@ -96,10 +96,10 @@ const Template = (args) => ({
     },
     template: `
     <h1>Bottom Sheet</h1>
-    <rahmet-button @click="handleOpenSheet">Toggle Bottom Sheet</rahmet-button>
+    <rahmet-button class="cursor-pointer" block @click="handleOpenSheet">Toggle Bottom Sheet</rahmet-button>
     
     <rahmet-bottom-sheet v-bind="args" ref="test">
-        <h1>Open Bottom Sheet</h1>
+        <h3>Bottom Sheet Content</h3>
     </rahmet-bottom-sheet>`,
 });
 
