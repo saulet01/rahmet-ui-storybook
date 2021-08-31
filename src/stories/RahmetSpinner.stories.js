@@ -20,13 +20,22 @@ export default {
             },
             description: "The color of the spinner",
         },
+        absolute: {
+            control: {
+                type: "boolean",
+            },
+            table: {
+                defaultValue: { summary: false },
+            },
+            description: "Absolute centered vertically and horizontally",
+        },
     },
     parameters: {
         docs: {
             source: {
                 code: `
 <template>
-    <rahmet-spinner color="#d2324c"></rahmet-spinner>
+    <RahmetSpinner color="#d2324c" />
 </template>
 
 import {RahmetSpinner} from "rahmet-ui"
@@ -51,7 +60,43 @@ const Template = (args) => ({
     template: `
         <div>
             <h1>Spinner</h1>
-            <rahmet-spinner v-bind="args">Hello Test Button</rahmet-spinner>
+            <RahmetSpinner v-bind="args" />
+
+            <h2 class="mt-10">Props:</h2>
+            <div class="card">
+                <h3>Size:</h3>
+                <div class="flex justify-space-around items-center">
+                    <div class="mx-auto">
+                        <RahmetSpinner size="small" />
+                        <p>Small</p>
+                    </div>
+                    <div class="mx-auto">
+                        <RahmetSpinner />
+                        <p>Medium (default)</p>
+                    </div>
+                    <div class="mx-auto">
+                        <RahmetSpinner size="large" />
+                        <p>Large</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-8">
+                <h3>Color:</h3>
+                <div class="flex justify-space-around items-center">
+                    <div class="mx-auto">
+                        <RahmetSpinner color="#ffcc30" />
+                        <p class="text-bold" style="color: #ffcc30">#ffcc30</p>
+                    </div>
+                    <div class="mx-auto">
+                        <RahmetSpinner color="#cc4747" />
+                        <p class="text-bold" style="color: #cc4747">#cc4747</p>
+                    </div>
+                    <div class="mx-auto">
+                        <RahmetSpinner color="#53A451" />
+                        <p class="text-bold" style="color: #53A451">#53A451</p>
+                    </div>
+                </div>
+            </div>
         </div>
     `,
 });
@@ -60,4 +105,5 @@ export const Spinner = Template.bind({});
 Spinner.args = {
     size: "normal",
     color: "#2997ff",
+    absolute: false,
 };
