@@ -84,10 +84,10 @@ const Template = (args) => ({
     },
     template: `
     <h1>Modal</h1>
-    <rahmet-button @click="handleOpenModal">Toggle Modal</rahmet-button>
+    <rahmet-button block @click="handleOpenModal">Toggle Modal</rahmet-button>
     
     <rahmet-modal v-bind="args" ref="modal">
-        <h1>Modal Content</h1>
+        <h3 style="height: 200px;" class="mx-auto">Modal Title</h3>
     </rahmet-modal>`,
 });
 
