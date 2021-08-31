@@ -1,7 +1,5 @@
-import "../../src/assets/global.css";
-// import { addDecorator } from "@storybook/vue3";
-
-// addDecorator(() => "<div class='container'><story /></div>");
+import "../../src/assets/styles/global.css";
+import "../../src/assets/styles/spacing.css";
 
 export const decorators = [
     (story) => ({
