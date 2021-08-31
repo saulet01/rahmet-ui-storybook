@@ -1,0 +1,88 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs";
+
+<Meta title="Introduction" />
+
+<p style={{ padding: "10px 0px", textAlign: "center" }}>
+    <img
+        src="https://rahmet.s3.ap-southeast-1.amazonaws.com/rahmet_logo.svg"
+        alt="Рахмет лого"
+        height="90"
+    />
+</p>
+
+<h1 style={{ fontWeight: "bold", textAlign: "center", paddingBottom: "40px" }}>
+    Рахмет UI Компоненты
+</h1>
+
+## Контент
+
+-   [Установка](#install)
+-   [Использование](#usage)
+-   [Запуск](#start)
+
+## <a id="install"></a>Установка
+
+### npm
+
+```
+npm install rahmet-ui
+```
+
+### yarn
+
+```
+yarn add rahmet-ui
+```
+
+## <a id="usage"></a>Использование
+
+Пример использования компонента `RahmetButton`:
+
+```
+<template>
+    <rahmet-button>Test Rahmet Button</rahmet-button>
+</template>
+
+import {RahmetButton} from "rahmet-ui"
+
+export default {
+    ...
+    components: {
+        RahmetButton
+    }
+}
+```
+
+## <a id="start"></a>Запуск
+
+### Локально
+
+```
+yarn serve
+```
+
+Инициализация компонентов осуществляется в папке `dev/serve.vue`. Файл `serve.js` аналог `main.js` в обычном Vue проекте.
+
+### Production
+
+```
+yarn build
+```
+
+### Unit тесты
+
+```
+yarn test:unit
+```
+
+### E2E тесты
+
+```
+yarn test:e2e
+```
+
+### ESLINT
+
+```
+yarn lint
+```

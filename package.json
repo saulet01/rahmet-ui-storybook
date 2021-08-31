@@ -12,7 +12,7 @@
   "dependencies": {
     "@storybook/theming": "^6.3.6",
     "core-js": "^3.6.5",
-    "rahmet-ui": "^0.3.4",
+    "rahmet-ui": "^0.4.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {

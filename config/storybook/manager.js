@@ -5,6 +5,7 @@ import logo from "../../src/assets/rahmet.svg";
 const theme = create({
     brandTitle: "Рахмет UI Компоненты",
     brandImage: logo,
+    base: "light",
 });
 
 addons.setConfig({
