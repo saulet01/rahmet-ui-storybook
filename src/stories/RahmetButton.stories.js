@@ -117,6 +117,7 @@ const Template = (args) => ({
 
         <div class="card">
             <h3>Theme:</h3>
+            <p class="card__description">The theme of the button</p>
             <div class="flex">
                 <rahmet-button block>Primary (default)</rahmet-button>
                 <rahmet-button block theme="secondary">Secondary</rahmet-button>
@@ -127,6 +128,7 @@ const Template = (args) => ({
 
         <div class="card mt-8">
             <h3>Size:</h3>
+            <p class="card__description">The size of the button</p>
             <rahmet-button size="small">Small</rahmet-button>
             <rahmet-button class="mx-8">Normal (default)</rahmet-button>
             <rahmet-button size="large">Large</rahmet-button>
@@ -134,12 +136,14 @@ const Template = (args) => ({
 
         <div class="card mt-8">
             <h3>Block:</h3>
+            <p class="card__description">Extend the full available width</p>
             <rahmet-button>Not block (default)</rahmet-button>
             <rahmet-button block class="mt-3">Block</rahmet-button>
         </div>
 
         <div class="card mt-8">
             <h3>Disabled:</h3>
+            <p class="card__description">Disable the button</p>
             <div class="flex">
                 <rahmet-button block>Active (default)</rahmet-button>
                 <rahmet-button block disabled>Disabled</rahmet-button>
@@ -148,6 +152,7 @@ const Template = (args) => ({
 
         <div class="card mt-8">
             <h3>Loading:</h3>
+            <p class="card__description">Show loader</p>
             <rahmet-button loading block>Loading...</rahmet-button>
         </div>
     </div>`,

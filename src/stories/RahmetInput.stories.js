@@ -71,6 +71,7 @@ const Template = (args) => ({
         <h2 class="mt-10">Props:</h2>
         <div class="card">
             <h3>Disabled:</h3>
+            <p class="card__description">Disable the input</p>
             <RahmetInput disabled placeholder="Disabled" />
         </div>
     </div>`,

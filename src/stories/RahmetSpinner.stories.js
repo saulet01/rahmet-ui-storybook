@@ -65,6 +65,7 @@ const Template = (args) => ({
             <h2 class="mt-10">Props:</h2>
             <div class="card">
                 <h3>Size:</h3>
+                <p class="card__description">The size of the spinner</p>
                 <div class="flex justify-space-around items-center">
                     <div class="mx-auto">
                         <RahmetSpinner size="small" />
@@ -82,6 +83,7 @@ const Template = (args) => ({
             </div>
             <div class="card mt-8">
                 <h3>Color:</h3>
+                <p class="card__description">The color of the spinner</p>
                 <div class="flex justify-space-around items-center">
                     <div class="mx-auto">
                         <RahmetSpinner color="#ffcc30" />
