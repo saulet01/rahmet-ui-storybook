@@ -10452,10 +10452,10 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-rahmet-ui@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/rahmet-ui/-/rahmet-ui-0.4.0.tgz#cd8f5b87da56cd8899ef3b0ba7d9ce6c41cc0cc6"
-  integrity sha512-89kT7MSTtfyl73T0RjCx5rfCAcTcdP0qKZXtPSBZtlQrSLO+pQdn8MZP2lyl+mFgG1lvfdgrbvy4whCC8bT4mg==
+rahmet-ui@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/rahmet-ui/-/rahmet-ui-0.5.1.tgz#f92d667bef852e0608f95ad8e0b2bb19f4d3d8f3"
+  integrity sha512-52RoQTJ5M5DLz1U6p8MsHSghxSEu3i+tDinbPTsobhLL1hC8Hxhg9qz8pZo8P5g/+l3p5Mrz927yA5K4p299IA==
 
 ramda@^0.21.0:
   version "0.21.0"
