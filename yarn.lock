@@ -10452,10 +10452,10 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-rahmet-ui@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/rahmet-ui/-/rahmet-ui-0.5.1.tgz#f92d667bef852e0608f95ad8e0b2bb19f4d3d8f3"
-  integrity sha512-52RoQTJ5M5DLz1U6p8MsHSghxSEu3i+tDinbPTsobhLL1hC8Hxhg9qz8pZo8P5g/+l3p5Mrz927yA5K4p299IA==
+rahmet-ui@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/rahmet-ui/-/rahmet-ui-0.6.0.tgz#55dabe83d447aaeedf16d5c5c9a591633146f128"
+  integrity sha512-Eq2enTdHGieTng3cYMo6qsx/pY3axAEg4qP6CKnsEN/I6WvSdPPf/D3EBsKp2F8Kowo5TY6+UrUHqrGH1GF84g==
 
 ramda@^0.21.0:
   version "0.21.0"
@@ -12902,6 +12902,11 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-router@^3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.5.2.tgz#5f55e3f251970e36c3e8d88a7cd2d67a350ade5c"
+  integrity sha512-807gn82hTnjCYGrnF3eNmIw/dk7/GE4B5h69BlyCK9KHASwSloD1Sjcn06zg9fVG4fYH2DrsNBZkpLtb25WtaQ==
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.3"
