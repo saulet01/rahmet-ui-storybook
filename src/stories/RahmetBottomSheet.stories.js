@@ -10,15 +10,15 @@ export default {
             description:
                 "The name of the button sheet. Note: must be the same parameter in onOpen()",
         },
-        rounded: {
-            default: true,
+        borderRadius: {
+            default: '15',
             control: {
-                type: "boolean",
+                type: "text",
             },
             table: {
-                defaultValue: { summary: true },
+                defaultValue: { summary: '15' },
             },
-            description: "Rounded top corners",
+            description: "Set a radius of top corners",
         },
         overlay: {
             default: true,
@@ -29,6 +29,16 @@ export default {
                 defaultValue: { summary: true },
             },
             description: "Background overlay",
+        },
+        isShiftVisible: {
+            default: true,
+            control: {
+                type: "boolean",
+            },
+            table: {
+                defaultValue: { summary: true },
+            },
+            description: "Shift visibility",
         },
         contentPadding: {
             default: true,
@@ -107,8 +117,9 @@ const Template = (args) => ({
 export const BottomSheet = Template.bind({});
 BottomSheet.args = {
     name: "demo",
-    rounded: true,
+    borderRadius: '15',
     overlay: true,
     contentPadding: true,
     shiftMinHeight: 70,
+    isShiftVisible: true
 };
